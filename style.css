@@ -49,6 +49,7 @@
 
 #rimage{
     transform: rotate(-20deg);
+    background-color: peru;
 }
 #cont1{
     border: px;
@@ -86,6 +87,14 @@
     width: 25%;
 }
 
+#buttn{
+    display: flex;
+    gap: 5%;
+}
+
+.un{
+    color: red;
+}
 #icn{
 
 }
@@ -160,15 +169,73 @@
 
 
 @media screen and (min-width: 375px) and (max-width: 939px){
-    #d1{
-        display: flex;
-        gap: 20%;
-        font-size: x-large;
-        flex-wrap: wrap;
-    }
+  #d1{
+    flex-wrap: wrap;
+  }   
 
-    #head{
-        display: grid;
-    }
+  #rimage{
+    transform: rotate(0deg);
+}
+
+#head{
+     font-size: medium; 
+    display: grid;
+}
+
+#d1{
+    transform: rotate(0deg);}
+
+#icons1{
+     font-size: large; 
+    display: grid;
+}
+
+#p1{
+     font-size: large; 
+     padding-top: 150px; 
+}
+
+#colm1{
+    font-size: large; 
+    display: grid;
+}
+
+
+#txt5{
+     padding-top: 100px; 
+}
+
+#bco{
+    /* width: 100%; */
+    
+}
+
+#customer{
+    transform: rotate(0deg);
+}
+
+#col2{
+    flex-wrap: wrap;
+}
+
+#col3{
+    transform: rotate(0deg);
+}
+
+#bcnt{
+    flex-wrap: wrap;
+}
+
+#drw{
+    flex-wrap: wrap;
+}
+
+#foot{
+    display: grid;
+}
+
+#denski{
+    padding-top: 100px;
+}
 }
 
