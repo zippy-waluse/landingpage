@@ -1,0 +1,174 @@
+#d1{
+    display: flex;
+    gap: 20%;
+    font-size: x-large;
+}
+
+#head{
+    font-size: x-large;
+    display: flex;
+    gap: 10%;
+    margin-left: 8%;
+}
+#txt1{
+    text-align: center;
+    font-weight: 950;
+}
+
+#icons1{
+    display: flex;
+    gap: 10%;
+    margin-left: 18%;
+    font-size: x-large;
+}
+
+#p1{
+    text-align: center;
+}
+
+#colm1{
+    display: flex;
+    gap: 10%;
+    margin-left: 8%;
+    font-size: x-large;
+}
+
+#scolm1{
+    font-size: x-large;
+}
+
+#clm{
+    display: flex;
+    gap: 8%;
+}
+
+#clm2{
+    display: flex;
+    gap: 8%;
+}
+
+#rimage{
+    transform: rotate(-20deg);
+}
+#cont1{
+    border: px;
+}
+
+.con1{
+    border: solid 2px;
+    width: 25%;
+    display: flex;
+    background-color: pink;
+    height: 10%;
+}
+
+#watch{
+    background-color: blue;
+    border-radius: 5%;
+}
+
+#ic2{
+    width: 40%;
+}
+
+#join{
+    background-color: palevioletred;
+}
+
+#ic3{
+    width: 40%;
+    padding-top: 100px;
+}
+
+#icn{
+    display: flex;
+    background-color: burlywood;
+    width: 25%;
+}
+
+#icn{
+
+}
+
+#bco{
+    margin-left: 40%;
+}
+
+#cont2{
+    border: solid 2px;
+}
+
+#customer{
+    text-align: center;
+    transform: rotate(-20deg);
+
+}
+
+#col2{
+    display: flex;
+    gap: 30%;
+}
+
+#girl{
+    width: 50%;
+}
+
+#col3{
+    display: flex;
+    gap: 20%;
+    transform: rotate(-20deg);
+     background-color: burlywood;
+}
+
+#words{
+    text-align: center;
+
+}
+
+#cnt2{
+    border: solid;
+    width: 30%;
+}
+
+#bcnt{
+    display: flex;
+    gap: 20%;
+}
+
+#draw{
+    width: 100%;
+}
+
+#drw{
+    display: flex;
+    gap: 20%;
+}
+
+#foot{
+    display: flex;
+    gap: 10%;
+}
+
+#ic{
+    display: flex;
+    gap: 4%;
+}
+
+#f1{
+    list-style-type: none;
+}
+
+
+@media screen and (min-width: 375px) and (max-width: 939px){
+    #d1{
+        display: flex;
+        gap: 20%;
+        font-size: x-large;
+        flex-wrap: wrap;
+    }
+
+    #head{
+        display: grid;
+    }
+}
+
